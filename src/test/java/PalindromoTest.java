@@ -94,4 +94,21 @@ class PalindromoTest {
     public void esPalindromo17() {
         assertTrue(p.esPalindromo("ýáöèïeoay"));
     }
+    @Test
+    public void esPalindromo18() {
+        assertTrue(p.esPalindromo("aaabccbaaa"));
+    }
+    @Test
+    public void esPalindromo19() {
+        assertTrue(p.esPalindromo("La tele letal"));
+    }
+    @Test
+    public void esPalindromo20() {
+        assertFalse(p.esPalindromo(""));
+    }
+    @Test
+    public void esPalindromo21() {
+        assertFalse(p.esPalindromo("ahabccbaaa"));
+    }
+
 }

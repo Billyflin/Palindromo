@@ -4,6 +4,8 @@ public class init {
     public static void main(String[] args) {
         hola();
     }
+
+
     public static void hola(){
         Scanner teclado = new Scanner(System.in);
         Palindromo p = new Palindromo();
